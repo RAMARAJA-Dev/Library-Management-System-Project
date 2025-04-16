@@ -3,7 +3,7 @@ import oracledb as orc
 def updatebook():
 	while(True):
 		try:
-			con=orc.connect("Raja/949439@127.0.0.1/orcl")
+			con=orc.connect("Raja/949429@127.0.0.1/orcl")
 			cur=con.cursor()
 			#accept empno,emp new sal and emp new comp name
 			bookno=int(input("Enter Book Number for Updating Other details of Book:"))
