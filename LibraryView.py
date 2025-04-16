@@ -2,7 +2,7 @@
 import oracledb as orc
 def viewbook():
     try:
-        con = orc.connect("Raja/9494293339@localhost/orcl")
+        con = orc.connect("Raja/949429@localhost/orcl")
         cur = con.cursor()
         sq = "select * from library where bno={}".format(int(input("Enter Book Number to view its Details")))
         cur.execute(sq)
