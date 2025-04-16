@@ -3,7 +3,7 @@ import oracledb as orc
 def addbook():
     while(True):
         try:
-            con=orc.connect("Raja/9494293339@localhost/orcl")
+            con=orc.connect("Raja/949429@localhost/orcl")
             cur=con.cursor()
             #Accept Book Details from KBD
             print("---------------------------------------------")
